@@ -77,7 +77,7 @@ main {
 }
 .nav-list.active {
     transform: translateX(0);
-    transition: transform 0.3s ease-in;
+    z-index: 10;
   }
 @keyframes navLinkFade {
     from {
@@ -96,7 +96,7 @@ main {
     opacity: 0;
 }
 .mobile-menu.active .line3 {
-    transform: rotate(45deg) translate(-5px, 7px);
+    transform: rotate(45deg) translate(-5px, -7px);
 }
 .boas-vindas {
     font-size: 15px;
