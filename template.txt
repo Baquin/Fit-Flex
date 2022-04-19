@@ -1,5 +1,4 @@
 Fit Flex 		| ÍNICIO | TREINAMENTO | SUPLEMENTOS | CONTATO |	| LOGIN |
-| F | I | T |
 
 BOAS-VINDAS
 É aqui que você conseguirá a sua melhor forma!
@@ -17,8 +16,10 @@ Só a Fit Flex possui os recursos adequados para te ajudar a chegar ao inexplic�
 Junte-se a nós e te mostraremos como a realmente a vida é para ser vivida! Pois só aqui você irá se diferenciar dos demais!
 
 
-Planos
+Planos:
+| Fit | Flex | Bomba |
 
 Avaliações
 
 ©2022 por FlexMath
+| F | I | T |

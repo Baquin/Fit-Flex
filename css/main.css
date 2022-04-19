@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family:'Roboto', sans-serif;
 }
 
@@ -135,10 +136,83 @@ button.slick-next {
     text-align: center;
     font-size: 15px;
 }
+.planos {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.text-flex {
+    color: #FF0072;
+}
+.cards {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 32px;
+}
+.cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #161616;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    border-radius: 10px;
+    max-height: 468px;
+    margin-left: 32px;
+}
+.cards .card:first-child {
+    margin-left: 0;
+}
+.cards .card .icon {
+    width: 64px;
+    height: 64px;
+}
+.cards .card .card-img {
+    width: 100%;
+}
+.cards .card h3 {
+    font-size: 100%;
+    margin: 16px 0px;
+}
+.cards .card span {
+    font-weight: 300;
+    max-width: 240px;
+    font-size: 80%;
+    margin-bottom: 16px;
+}
+.cards .card button {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+}
+@media screen and (max-width:720px) {
+    .cards{
+        flex-direction: column;
+    }
+    .cards section.card {
+        margin-left: 0;
+        margin-bottom: 32px;
+    } 
+    .cards section.cards:last-child{
+        margin-bottom: 0;
+    }
+    .cards section.card button {
+        font-size: 70%;
+    }
+}
 .footer-2 {
     background-color: #161616; 
     color: #FF0072;
-    height: 150px;
+    height: 100px;
 }
 .footer-2 p{
     margin-bottom: 0px;
