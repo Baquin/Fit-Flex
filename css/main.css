@@ -50,7 +50,7 @@ main {
     margin: 8px;
     transition: 0.3s;
 }
-@media (max-width: 0px) {
+@media (max-width: px) {
     body {
         overflow: hidden;
     }
