@@ -38,7 +38,6 @@ main {
     background: url(/img/background.png);
     background-attachment: fixed;
     background-position: center center;
-    height: 300vh;
 }
 .mobile-menu {
     display: none;
@@ -51,11 +50,12 @@ main {
     margin: 8px;
     transition: 0.3s;
 }
-@media (max-width: 999px) {
+@media (max-width: 0px) {
     body {
         overflow: hidden;
     }
     .nav-list {
+        z-index: 10;
         position: absolute;
         top: 8vh;
         right: 0;
@@ -176,13 +176,13 @@ button.slick-next {
     width: 100%;
 }
 .cards .card h3 {
-    font-size: 100%;
+    font-size: 15px;
     margin: 16px 0px;
 }
 .cards .card span {
     font-weight: 300;
     max-width: 240px;
-    font-size: 80%;
+    font-size: 15px;
     margin-bottom: 16px;
 }
 .cards .card button {
@@ -191,7 +191,7 @@ button.slick-next {
     border-radius: 32px;
     border: 0;
     cursor: pointer;
-    font-size: 80%;
+    font-size: 100%;
     font-weight: 500;
 }
 @media screen and (max-width:720px) {
@@ -212,21 +212,17 @@ button.slick-next {
 .footer-2 {
     background-color: #161616; 
     color: #FF0072;
-    height: 100px;
+    height: 70px;
 }
 .footer-2 p{
-    margin-bottom: 0px;
     font-size: 15px;
-    padding: 0px;
     text-align: center;
 }
 .redes-sociais ul li {
-    margin-left: 8px;
+    padding: 4px;
     display: inline-block;
     list-style: none;
 } 
 .redes-sociais {
-    width: 25%;
-    margin-inline: 28%;
-    float: right;
+    text-align: center;
 }
