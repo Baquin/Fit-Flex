@@ -2,6 +2,9 @@
     border: 0;
 }
 main {
+    background: url(/img/background-4.png);
+    background-attachment: fixed;
+    background-position: center center;
     color: white;
     min-height: 100vh;
     min-width: 100vh;

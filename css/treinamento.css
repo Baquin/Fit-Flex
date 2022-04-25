@@ -1,0 +1,22 @@
+
+body {
+    color: white;
+    background: url(/img/background-2.png);
+    background-attachment: fixed;
+    background-position: center center;
+}
+.cards{
+    text-align: center;
+    background-color: #161616;
+    margin: 100px;
+    border-radius: 30px;
+}
+.icone{
+    display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-items: center;
+}
+.peito{
+    background-image: url(/Fit-Flex-main/vids/peito.mp4);
+}

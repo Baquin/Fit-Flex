@@ -1,0 +1,163 @@
+/* Efeitos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family:'Roboto', sans-serif;
+}
+
+body {
+    background: url(/img/background-3.png);
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+/* descontos */
+.anuncios {
+    width: 800px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* texto */
+.text-flex {
+    color: #FF0072;
+}
+
+.titulo {
+    text-align: center;
+    color: aliceblue;
+}
+
+.introducao-1 {
+    color: white;
+    text-align: center;
+}
+.introducao {
+    text-align: center;
+    color: #FF0072;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+/* Slide */
+.slide {
+    width: 800px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #161616;
+    padding: 10px;
+    border-radius: 1000px;
+    width: 280px;
+    margin: 0 auto;
+    margin-left: 10px;
+}
+
+.product {
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.buy {
+    color: aliceblue;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+/* Sua Meta */
+.iconMeta {
+    width: 800px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #161616;
+    padding: 10px;
+    border-radius: 10px;
+    width: 280px;
+    margin: 0 auto;
+    margin-left: 10px;
+}
+
+.iconButton {
+    text-align: center;
+    background-color: #FF0072;
+    padding: 30px;
+    border-radius: 100px;
+    margin-top: 20px;
+    width: 200px;
+    font-weight: bold;
+    color: white;
+}
+
+.iconDescription {
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+.iconImage {
+    border-radius: 10px;
+    width: 100px;
+    margin: 55px;
+}
+
+.iconText {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* PRODUTOS SUA META */
+
+.iconProduto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #161616;
+    padding: 10px;
+    border-radius: 10px;
+    width: 280px;
+    margin: 0 auto;
+    margin-left: 10px;
+}
+
+.iconPrecoProduto {
+    text-align: center;
+    background-color: #FF0072;
+    padding: 30px;
+    border-radius: 100px;
+    margin-top: 20px;
+    width: 200px;
+    font-weight: bold;
+    color: white;
+}
+
+.iconNomeProduto {
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.rosinha {
+    color: #FF0072;
+}
