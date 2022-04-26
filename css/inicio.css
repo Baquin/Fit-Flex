@@ -68,6 +68,7 @@ button.slick-next {
     border-radius: 10px;
     max-height: 468px;
     margin-left: 32px;
+    height: 260px;
 }
 .cards .card:first-child {
     margin-left: 0;
@@ -90,6 +91,7 @@ button.slick-next {
     margin-bottom: 16px;
 }
 .cards .card button {
+    color: white;
     padding: 0.5rem 1rem;
     text-transform: uppercase;
     border-radius: 32px;
@@ -97,6 +99,7 @@ button.slick-next {
     cursor: pointer;
     font-size: 100%;
     font-weight: 500;
+    background: #FF0072;
 }
 @media screen and (max-width:720px) {
     .cards{
