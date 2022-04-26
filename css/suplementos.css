@@ -135,9 +135,9 @@ body {
     background-color: #161616;
     padding: 10px;
     border-radius: 10px;
-    width: 280px;
     margin: 0 auto;
     margin-left: 10px;
+    height: 350px;
 }
 
 .iconPrecoProduto {
